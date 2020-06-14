@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("../node_modules/bootstrap-3.3.7/dist/css/bootstrap.css");
+
+.pagedata {
+  min-height: 500px;
+  width: 100%;
+}

@@ -1,0 +1,87 @@
+.example-card {
+  max-width: 200px;
+}
+
+.example-header-image {
+  background-image: url("../../assets/1.jpg");
+  background-size: cover;
+}
+.image {
+  height: 150px;
+  width: 125px;
+}
+.example-header-image2 {
+  background-image: url("../../assets/2.jpg");
+  background-size: cover;
+}
+.image2 {
+  height: 150px;
+  width: 80px;
+}
+.image3 {
+  height: 150px;
+  width: 80px;
+}
+
+.example-header-image3 {
+  background-image: url("../../assets/3.jpg");
+  background-size: cover;
+}
+.contact {
+  background:#3c91e6;
+  color: #fff;
+  width: 100%;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+.ribbon {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background: #04cbd3;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 15px;
+  border-radius: 2px;
+  letter-spacing: 0.1rem;
+}
+.ribbon:before,
+.ribbon:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  border: 23px solid #0c6366;
+  z-index: -1;
+}
+.ribbon:before {
+  left: -30px;
+  border-right-width: 23px;
+  border-left-color: transparent;
+}
+.ribbon:after {
+  right: -30px;
+  border-left-width: 23px;
+  border-right-color: transparent;
+}
+.ribbon span:before,
+.ribbon span:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #04cbd3 transparent transparent transparent;
+  bottom: -15px;
+}
+.ribbon span:before {
+  left: 0;
+  border-width: 15px;
+}
+.ribbon span:after {
+  right: 0;
+  border-width: 15px 15px 0 0;
+}
